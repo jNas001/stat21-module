@@ -51,17 +51,18 @@ public class jfChapterOne extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        btn_chap1_9 = new javax.swing.JButton();
+        btn_chap1_4 = new javax.swing.JButton();
+        btn_chap1_2 = new javax.swing.JButton();
+        btn_chap1_6 = new javax.swing.JButton();
+        btn_chap1_8 = new javax.swing.JButton();
+        btn_chap1_7 = new javax.swing.JButton();
         btn_chap1_1 = new javax.swing.JButton();
+        btn_chap1_3 = new javax.swing.JButton();
         pnlChap1_1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
-        btn_chap1_2 = new javax.swing.JButton();
-        btn_chap1_3 = new javax.swing.JButton();
-        btn_chap1_4 = new javax.swing.JButton();
-        btn_chap1_6 = new javax.swing.JButton();
-        btn_chap1_7 = new javax.swing.JButton();
-        btn_chap1_8 = new javax.swing.JButton();
-        btn_chap1_9 = new javax.swing.JButton();
 
         btn_chap1_5.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         btn_chap1_5.setText("   1.4: Scales of Measurement");
@@ -86,7 +87,7 @@ public class jfChapterOne extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 878, Short.MAX_VALUE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
@@ -97,6 +98,36 @@ public class jfChapterOne extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        btn_chap1_9.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        btn_chap1_9.setText("   1.8: Summation Notation");
+        btn_chap1_9.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btn_chap1_9.setPreferredSize(new java.awt.Dimension(73, 35));
+
+        btn_chap1_4.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        btn_chap1_4.setText("   1.4: Scales of Measurement");
+        btn_chap1_4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btn_chap1_4.setPreferredSize(new java.awt.Dimension(73, 35));
+
+        btn_chap1_2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        btn_chap1_2.setText("   1.2: Role of Statistics");
+        btn_chap1_2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btn_chap1_2.setPreferredSize(new java.awt.Dimension(73, 35));
+
+        btn_chap1_6.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        btn_chap1_6.setText("   1.5: Population and Samples");
+        btn_chap1_6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btn_chap1_6.setPreferredSize(new java.awt.Dimension(73, 35));
+
+        btn_chap1_8.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        btn_chap1_8.setText("   1.7: Descriptive Statistics and Inferential Statistics");
+        btn_chap1_8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btn_chap1_8.setPreferredSize(new java.awt.Dimension(73, 35));
+
+        btn_chap1_7.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        btn_chap1_7.setText("   1.6: Basic Sampling Techniques");
+        btn_chap1_7.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btn_chap1_7.setPreferredSize(new java.awt.Dimension(73, 35));
+
         btn_chap1_1.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         btn_chap1_1.setText("   1.1: Meaning of Statistics");
         btn_chap1_1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -106,6 +137,50 @@ public class jfChapterOne extends javax.swing.JFrame {
                 btn_chap1_1ActionPerformed(evt);
             }
         });
+
+        btn_chap1_3.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        btn_chap1_3.setText("   1.3: Variables");
+        btn_chap1_3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btn_chap1_3.setPreferredSize(new java.awt.Dimension(73, 35));
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btn_chap1_1, javax.swing.GroupLayout.DEFAULT_SIZE, 405, Short.MAX_VALUE)
+                    .addComponent(btn_chap1_2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn_chap1_3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn_chap1_4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn_chap1_6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn_chap1_7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn_chap1_8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn_chap1_9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn_chap1_1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn_chap1_2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn_chap1_3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn_chap1_4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn_chap1_6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn_chap1_7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn_chap1_8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn_chap1_9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
@@ -122,51 +197,16 @@ public class jfChapterOne extends javax.swing.JFrame {
             pnlChap1_1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlChap1_1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 423, Short.MAX_VALUE)
                 .addContainerGap())
         );
         pnlChap1_1Layout.setVerticalGroup(
             pnlChap1_1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlChap1_1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jScrollPane1)
+                .addContainerGap())
         );
-
-        btn_chap1_2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        btn_chap1_2.setText("   1.2: Role of Statistics");
-        btn_chap1_2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btn_chap1_2.setPreferredSize(new java.awt.Dimension(73, 35));
-
-        btn_chap1_3.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        btn_chap1_3.setText("   1.3: Variables");
-        btn_chap1_3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btn_chap1_3.setPreferredSize(new java.awt.Dimension(73, 35));
-
-        btn_chap1_4.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        btn_chap1_4.setText("   1.4: Scales of Measurement");
-        btn_chap1_4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btn_chap1_4.setPreferredSize(new java.awt.Dimension(73, 35));
-
-        btn_chap1_6.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        btn_chap1_6.setText("   1.5: Population and Samples");
-        btn_chap1_6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btn_chap1_6.setPreferredSize(new java.awt.Dimension(73, 35));
-
-        btn_chap1_7.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        btn_chap1_7.setText("   1.6: Basic Sampling Techniques");
-        btn_chap1_7.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btn_chap1_7.setPreferredSize(new java.awt.Dimension(73, 35));
-
-        btn_chap1_8.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        btn_chap1_8.setText("   1.7: Descriptive Statistics and Inferential Statistics");
-        btn_chap1_8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btn_chap1_8.setPreferredSize(new java.awt.Dimension(73, 35));
-
-        btn_chap1_9.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        btn_chap1_9.setText("   1.8: Summation Notation");
-        btn_chap1_9.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btn_chap1_9.setPreferredSize(new java.awt.Dimension(73, 35));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -175,16 +215,9 @@ public class jfChapterOne extends javax.swing.JFrame {
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btn_chap1_1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(pnlChap1_1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btn_chap1_2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btn_chap1_3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btn_chap1_4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btn_chap1_6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btn_chap1_7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btn_chap1_8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btn_chap1_9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(pnlChap1_1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -192,23 +225,9 @@ public class jfChapterOne extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btn_chap1_1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(pnlChap1_1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btn_chap1_2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn_chap1_3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn_chap1_4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn_chap1_6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn_chap1_7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn_chap1_8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn_chap1_9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(pnlChap1_1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -216,7 +235,7 @@ public class jfChapterOne extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -282,6 +301,7 @@ public class jfChapterOne extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JPanel pnlChap1_1;
